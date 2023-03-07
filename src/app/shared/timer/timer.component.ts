@@ -7,7 +7,7 @@ import { TodoService } from '../todo.service';
 @Component({
   selector: 'app-timer',
   templateUrl: './timer.component.html',
-  styleUrls: ['./timer.component.scss'],
+  styleUrls: ['./timer.component.css'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class TimerComponent implements OnInit {

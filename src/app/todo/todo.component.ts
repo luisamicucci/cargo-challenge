@@ -30,7 +30,7 @@ export class TodoComponent implements OnInit {
   }
 
   onClick(titleInput: HTMLInputElement) {
-    if (titleInput.value) {
+    if (titleInput.value && titleInput.value.trim() !== '') {
 
       const todo: Todo = {
         title: titleInput.value,
