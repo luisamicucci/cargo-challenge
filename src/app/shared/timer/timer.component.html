@@ -1,0 +1,4 @@
+<span class="timer float-end" (click)="onClick()">
+    <countdown #cd class="counter" [config]="config" (event)="handleEvent($event)"></countdown>
+    <i [ngClass]="!isPlaying?'fa-solid fa-play' : 'fa-solid fa-pause'"></i>
+</span>
