@@ -56,7 +56,7 @@ export class TodoComponent implements OnInit {
       let time: number = 0;
 
       if (b.cycleTime > 0) {
-        time = environment.timerConfig.default * b.cycleTime;
+        time = environment.timerConfig.time * b.cycleTime;
       }
 
       return a + b.timeConsumed + time;
